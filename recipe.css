@@ -30,8 +30,8 @@ p.category{
 }
 div.content{
     background-color: white;
-    margin: 12px 10% 10px 10px;
-    padding: 30px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 8px 20px 8px;
     /*min-width: 350px;*/
     box-shadow: 0px 0px 10px 10px rgba(0,0,0,.15);
     overflow: visible;
@@ -62,11 +62,11 @@ table.info{
 table.info td{
     text-align: center;
     vertical-align: top;
-    font-size: 40px;
+    font-size: 20px;
 }
 table.info th{
     vertical-align: bottom;
-    font-size: 5px;
+    font-size: 25px;
 }
 img.info{
     display:block;
