@@ -62,11 +62,11 @@ table.info{
 table.info td{
     text-align: center;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 55px;
 }
 table.info th{
     vertical-align: bottom;
-    font-size: 16px;
+    font-size: 40px;
 }
 img.info{
     display:block;
@@ -126,10 +126,16 @@ table.instructions td{
 table.instuctions tr {
     height: 70px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
     div.content{
         margin: 0% 10% 80px 10%;
         padding: 30px;
         min-width: 350px;
+    }
+    table.info td{
+        font-size: 14px;
+    }
+    table.info th{
+        font-size: 16px;
     }
 }
