@@ -76,7 +76,7 @@ img.info{
     background-color: rgb(177, 176, 176);
 }
 div.col{
-    width: 45%;
+    width: 100%;
     margin-top: 20px
 }
 div.col h2{
@@ -88,10 +88,10 @@ div.col h2{
 }
 div.col1{
     display: inline-block;
-    margin-right: 10%;
+    /*margin-right: 10%;*/
 }
 div.col2{
-    float: right;
+    /*float: right;*/
 }
 div.ingredients p{
     text-align: center;
@@ -137,5 +137,12 @@ table.instuctions tr {
     }
     table.info th{
         font-size: 16px;
+    }
+    div.col{
+        width: 45%;
+    }
+    div.col1{
+        display: inline-block;
+        margin-right: 10%;
     }
 }
