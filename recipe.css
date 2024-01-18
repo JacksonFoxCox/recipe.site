@@ -145,4 +145,7 @@ table.instuctions tr {
         display: inline-block;
         margin-right: 10%;
     }
+    div.col2{
+        float: right;
+    }
 }
